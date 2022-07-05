@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    width: 1140px;
+    width: 1180px;
     margin: auto;
 }
 
@@ -12,7 +12,7 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: 16px;
-    padding: 15px 30px;
+    padding: 15px 80px;
     background-color: #FF5959;
     border-radius: 5px;
     display: inline-block;
@@ -23,6 +23,7 @@ h1 {
     font-weight: 700;
     color: #fff;
     margin: 0;
+    margin-bottom: 25px;
 }
 
 h2 {
@@ -30,11 +31,13 @@ h2 {
     font-weight: 700;
     color: #000;
     margin: 0;
+    margin-bottom: 25px;
 }
 
 h4 {
     font-size: 24px;
     margin: 0;
+    margin-bottom: 25px;
 }
 
 p {
@@ -76,13 +79,17 @@ p {
 
 /* Donate Area */
 .donate-area {
-    padding: 60px 0;
+    padding: 80px 0;
     text-align: center;
 }
 
 .donate-area-content {
     width: 800px;
     margin: auto;
+}
+
+.donate-area-content h2 {
+    margin-bottom: 20px;
 }
 
 .donate-ammounts {
@@ -127,7 +134,7 @@ p {
 
 .donate-area-content .button {
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .custom-ammount input {
@@ -170,6 +177,8 @@ input:focus {
 
 .plan img {
     margin-bottom: 35px;
+    height: 50px;
+    width: 50px;
 }
 
 .plan1 {
@@ -186,18 +195,26 @@ input:focus {
 
 /* Blog Area Start */
 .blog-area {
-    max-width: 1140px;
+    max-width: 1180px;
     margin: auto;
-    padding: 60px 0;
+    padding: 80px 0;
 }
 
 .blog-1 {
     display: flex;
-    margin-bottom: 100px 0;
+    margin-bottom: 100px;
+}
+
+.blog-content {
+    width: 60%;
 }
 
 .blog-1 .blog-content {
     margin-right: 100px;
+}
+
+.blog-image {
+    width: 40%;
 }
 
 .blog-image img {
@@ -207,7 +224,6 @@ input:focus {
 
 .blog-2 {
     display: flex;
-    margin: 100px 0;
 }
 
 .blog-2 .blog-image {
@@ -220,6 +236,7 @@ input:focus {
     margin: auto;
     padding-bottom: 60px;
     text-align: center;
+    padding: 80px 0;
 }
 
 .newsletter-form {
@@ -254,18 +271,20 @@ input:focus {
 /* Footer Area */
 .footer-area {
     text-align: center;
-    padding: 40px 0;
+    padding: 80px 0;
     background-color: #0B0D17;
     overflow: hidden;
 }
 
 .footer-area h3 {
     color: #FF5959;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: 36px;
     margin: 0;
+    cursor: pointer;
 }
 
 .footer-area p {
     margin: 10px 0;
+    font-size: 14px;
 }

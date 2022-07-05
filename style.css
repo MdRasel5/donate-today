@@ -15,6 +15,7 @@ body {
     padding: 15px 30px;
     background-color: #FF5959;
     border-radius: 5px;
+    display: inline-block;
 }
 
 h1 {
@@ -38,7 +39,7 @@ h4 {
 
 p {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     color: #000;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 35px;
@@ -180,4 +181,34 @@ input:focus {
 
 .plan3 {
     background-color: #FFF4D6;
+}
+
+/* Blog Area Start */
+.blog-area {
+    max-width: 1140px;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.blog-1 {
+    display: flex;
+    margin-bottom: 100px 0;
+}
+
+.blog-1 .blog-content {
+    margin-right: 100px;
+}
+
+.blog-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog-2 {
+    display: flex;
+    margin: 100px 0;
+}
+
+.blog-2 .blog-image {
+    margin-right: 100px;
 }

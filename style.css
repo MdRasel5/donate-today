@@ -17,6 +17,45 @@ body {
     border-radius: 5px;
 }
 
+h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+}
+
+h4 {
+    font-size: 24px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 35px;
+}
+
+.black {
+    color: #000;
+}
+
+.white {
+    color: #fff;
+}
+
+.small-font {
+    font-size: 16px;
+}
+
 /* Header Area */
 .header-area {
     padding-top: 190px;
@@ -33,42 +72,15 @@ body {
     margin: auto;
 }
 
-.header-area-content h1 {
-    font-size: 65px;
-    font-weight: 700;
-    color: #fff;
-}
-
-.header-area-content p {
-    font-size: 18px;
-    font-weight: 400;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 35px;
-}
-
 /* Donate Area */
 .donate-area {
-    padding: 150px 0;
+    padding: 60px 0;
     text-align: center;
 }
 
 .donate-area-content {
     width: 800px;
     margin: auto;
-}
-
-.donate-area-content h2 {
-    font-size: 45px;
-    font-weight: 700;
-    color: #000;
-}
-
-.donate-area-content p {
-    font-size: 18px;
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 35px;
 }
 
 .donate-ammounts {
@@ -128,4 +140,44 @@ body {
 
 input:focus {
     outline: none;
+}
+
+/* Donate Plan Area */
+.donate-plan-area {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.plan {
+    margin-right: 25px;
+    padding-top: 55px;
+    padding-bottom: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.plan p {
+    margin-bottom: 0;
+}
+
+.plan img {
+    margin-bottom: 35px;
+}
+
+.plan1 {
+    background-color: #EDF5F6;
+}
+
+.plan2 {
+    background-color: #FFEEEE;
+}
+
+.plan3 {
+    background-color: #FFF4D6;
 }

@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 30px;
+    background-color: #FF5959;
+    border-radius: 5px;
+}
+
+/* Header Area */
+.header-area {
+    padding-top: 190px;
+    padding-bottom: 180px;
+    text-align: center;
+    background-image: url(images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-area-content {
+    width: 800px;
+    margin: auto;
+}
+
+.header-area-content h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.header-area-content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 35px;
+}
+
+/* Donate Area */
+.donate-area {
+    padding: 150px 0;
+    text-align: center;
+}
+
+.donate-area-content {
+    width: 800px;
+    margin: auto;
+}
+
+.donate-area-content h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #000;
+}
+
+.donate-area-content p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 35px;
+}
+
+.donate-ammounts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+
+.ammount {
+    background-color: #FAFAFA;
+    padding: 45px 25px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.ammount.active {
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    padding: 45px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ammount.active h3 {
+    color: #FF5959;
+}
+
+.ammount:hover {
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    padding: 45px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FF5959;
+}
+
+.ammount h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.donate-area-content .button {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.custom-ammount input {
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #DADADA;
+    ;
+    font-size: 18px;
+    color: #B3B3B3;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}

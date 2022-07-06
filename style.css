@@ -66,7 +66,7 @@ p {
     padding-top: 190px;
     padding-bottom: 180px;
     text-align: center;
-    background-image: url(images/banner.png);
+    background-image: url(images/hero-image2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -266,6 +266,22 @@ input:focus {
     cursor: pointer;
     margin-left: -5px;
     font-weight: 500;
+}
+
+/* Activities Area */
+.activities-area {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.activities-area .activity {
+    display: flex;
+}
+
+.activities-area .activity img {
+    width: 400px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 /* Footer Area */
